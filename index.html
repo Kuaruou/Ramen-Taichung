@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="lang=" zh-tw"">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>台中拉麵特選</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+    <!-- 輪播背景圖片 -->
+    <div id="carousel" class="carousel slide position-relative" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner position-relative">
+            <div class="carousel-item carousel__inner__pic active bg-cover"
+                style="background-image:url(https://images.unsplash.com/photo-1533540499377-cf2dec26c3d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) ">
+            </div>
+            <div class="carousel-item carousel__inner__pic bg-cover "
+                style="background-image:url(https://images.unsplash.com/photo-1486533803613-e0ce3d009238?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80)">
+            </div>
+            <div class="carousel-item carousel__inner__pic bg-cover "
+                style="background-image:url(https://images.unsplash.com/photo-1481882563558-a1b9f5f7744a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)">
+            </div>
+            <div class="carousel__inner__caption">
+                <div class="carousel__inner__caption__title">
+                    <h1>台中拉麵特選</h1>
+                    <h4 class="notification">提醒: 拉麵熱量高，少喝湯可以避免過多的鹽和脂肪</h4>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="content pt-5">
+        <div class="content__buttons text-primary text-center">
+            <!-- 拉麵風格按鈕 -->
+            <button type="button" class="btn btn-lg content__buttons-btn" value="全部">全部</button>
+            <button type="button" class="btn btn-lg content__buttons-btn" value="豚骨系">豚骨系</button>
+            <button type="button" class="btn btn-lg content__buttons-btn" value="雞白湯">雞白湯</button>
+            <button type="button" class="btn btn-lg content__buttons-btn" value="綜合系">綜合系</button>
+            <button type="button" class="btn btn-lg content__buttons-btn" value="橫濱家系">橫濱家系</button>
+        </div>
+        <div class="box row mt-5"></div>
+
+        <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h5 class="modal-title" id="exampleModalLongTitle">店家簡介</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">關閉</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center mt-4">
+        <p class="copyright">資料皆來自網路，純做為學術使用。</p>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
