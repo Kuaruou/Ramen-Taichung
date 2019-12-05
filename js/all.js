@@ -13,13 +13,11 @@ var initialData = $.ajax({
 })
 console.log(initialData);
 // 全域變數
-var data = initialData.responseJSON;
-var noDataText = '查無資料'
-var btnValue = document.querySelectorAll('.content__buttons-btn');
-var dataLen = data.length;
-var contentBox = document.querySelector('.box');
-console.log(data);
-console.log(btnValue);
+const data = initialData.responseJSON;
+const noDataText = '查無資料'
+const btnValue = document.querySelectorAll('.content__buttons-btn');
+const dataLen = data.length;
+const contentBox = document.querySelector('.box');
 
 // 首次載入所有卡片
 loadAll();
@@ -49,7 +47,7 @@ function loadAll() {
             '<div class="col-md-6 col-lg-4 mb-3">' +
             '<div class="card bg-light h-100">' +
             '<div class="card-body d-flex flex-column">' +
-            '<img class="card-img-top " style="height: 12rem;" src="' + data[i].Picture + '" alt="">' +
+            '<img class="card-img-top  modal-img-height";" src="' + data[i].Picture + '" alt="">' +
             '<span class="card-title"><b>' + data[i].Name + '</b></span>' +
             '<span class="card-span"><i class="fas fa-mortar-pestle"></i><b>類型:</b>' + data[i].Type + '</span>' +
             '<span class="card-span"><i class="fas fa-map-marker-alt" style="width: 18px"></i><b>地址:</b>' + data[i].Address + '</span>' +
