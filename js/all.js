@@ -45,6 +45,7 @@ function loadAll() {
         let id = data[i].Number;
         let siteBox =
             '<div class="col-md-6 col-lg-4 mb-3">' +
+            '<div class="card-zoom h-100">'+ 
             '<div class="card bg-light h-100">' +
             '<div class="card-body d-flex flex-column">' +
             '<img class="card-img-top modal-img-height";" src="' + data[i].Picture + '" alt="">' +
@@ -56,6 +57,7 @@ function loadAll() {
             '</div>' +
             '<div class="card-body d-flex flex-column">' +
             '<button type="button" class="introBtn button button-info mt-auto btn btn-info" data-toggle="modal" data-target="#ModalCenter" onclick="showIntro(&#39;' + id + '&#39;)">店家介紹</button>' +
+            '</div>' +
             '</div>' +
             '</div>' +
             '</div>';
@@ -70,9 +72,10 @@ function loadType(type) {
             let id = item.Number;
             let siteBox =
                 '<div class="col-md-6 col-lg-4 mb-3">' +
+                '<div class="card-zoom h-100">'+
                 '<div class="card bg-light h-100">' +
                 '<div class="card-body d-flex flex-column">' +
-                '<img class="card-img-top" style="height: 12rem;" src="' + item.Picture + '" alt="">' +
+                '<img class="card-img-top modal-img-height" src="' + item.Picture + '" alt="">' +
                 '<span class="card-title"><b>' + item.Name + '</b></span>' +
                 '<span class="card-span"><i class="fas fa-mortar-pestle"></i><b>類型:</b>' + item.Type + '</span>' +
                 '<span class="card-span"><i class="fas fa-map-marker-alt" style="width: 18px"></i><b>地址:</b>' + item.Address + '</span>' +
@@ -82,6 +85,7 @@ function loadType(type) {
                 '</div>' +
                 '<div class="card-body d-flex flex-column">' +
                 '<button type="button" class="introBtn button button-info mt-auto btn btn-info" data-toggle="modal" data-target="#ModalCenter" onclick="showIntro(&#39;' + id + '&#39;)">店家介紹</button>' +
+                '</div>' +
                 '</div>' +
                 '</div>' +
                 '</div>';

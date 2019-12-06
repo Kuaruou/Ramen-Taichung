@@ -155,6 +155,15 @@ textarea {
     }
 }
 
+.card-zoom {
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+}
+
 .button-info {
     text-align: center;
 }

@@ -202,6 +202,17 @@ textarea {
   }
 }
 
+.card-zoom {
+  overflow: hidden;
+}
+
+.card-zoom:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 .button-info {
   text-align: center;
 }
