@@ -11,6 +11,6 @@
 
 二、程式設計
 
-1. 使用jQuery串接API取得JSON資料。
+1. 使用jQuery Ajax串接API取得JSON資料。
 2. 用querySelectorAll選取各拉麵風格的按鈕(DOM)再以forEach迭代解決多項選取回傳的類陣列NodeList無法直接監聽的問題。
 3. 使用BEM結合SCSS設計方便管理的程式碼。
