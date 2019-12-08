@@ -92,9 +92,7 @@ btnValue.forEach(function(el){
 });
 ```
 
-3. 使用BEM結合SCSS設計方便管理的程式碼。
-
-4. 在卡片外層添加card-zoom效果時外層div內也要加入h-100避免卡片大小長短不一。
+3. 在卡片外層添加card-zoom效果時外層div內也要加入h-100避免卡片大小長短不一。
 
 ```javascript
 '<div class="card-zoom h-100">'+ 
