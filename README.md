@@ -5,6 +5,25 @@
 一、版面規劃
 
 1. 依照不同載具瀏覽畫面大小卡片單排呈現的數量設定不同尺寸的圖片
+
+```css
+.modal-img-height {
+    height: 12rem;
+    @media (max-width: 1200px) {
+        height: 10rem;
+    }
+    @media (max-width: 767px) {
+        height: 16rem;
+    }
+    @media (max-width: 572px) {
+        height: 12rem;
+    }
+    @media (max-width: 420px) {
+        height: 10rem;
+    }
+}
+```
+
 2. 用子元素選取器讓不同色調的按鈕相間產生對比。
 3. 在開頭使用Carousel讓封面有動態變化。
 4. 用Modal呈現各店家介紹內容避免主版面資訊過多。
