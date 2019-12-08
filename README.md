@@ -25,6 +25,29 @@
 ```
 
 2. 用子元素選取器讓不同色調的按鈕相間產生對比。
+
+```css
+.btn {
+    width: 120px;
+    font-size: 18px;
+    @media (max-width: 960px) {
+        width: 90px;
+        font-size: 14px;
+        }
+        
+        &:nth-child(2n-1) {
+            color: #fff;
+            background-color: #78c2c4;
+            border-color: #78c2c4;
+            }
+        &:nth-child(2n) {
+            color: #947A6D;
+            background-color:#fdefe1;
+            border-color: navajowhite;
+            }
+    }
+```
+        
 3. 在開頭使用Carousel讓封面有動態變化。
 4. 用Modal呈現各店家介紹內容避免主版面資訊過多。
 5. 使用hover當滑鼠移過卡片時設定transform和transition製造zoom in zoom out的效果。
