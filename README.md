@@ -52,37 +52,37 @@
 
 ```html
 <div id="carousel" class="carousel slide position-relative" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner position-relative">
-            <div class="carousel-item carousel__inner__pic active bg-cover"
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner position-relative">
+        <div class="carousel-item carousel__inner__pic active bg-cover"
                 style="background-image:url(https://images.unsplash.com/photo-1533540499377-cf2dec26c3d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) ">
-            </div>
-            <div class="carousel-item carousel__inner__pic bg-cover "
+        </div>
+        <div class="carousel-item carousel__inner__pic bg-cover "
                 style="background-image:url(https://images.unsplash.com/photo-1486533803613-e0ce3d009238?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80)">
-            </div>
-            <div class="carousel-item carousel__inner__pic bg-cover "
+        </div>
+        <div class="carousel-item carousel__inner__pic bg-cover "
                 style="background-image:url(https://images.unsplash.com/photo-1481882563558-a1b9f5f7744a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)">
-            </div>
-            <div class="carousel__inner__caption">
-                <div class="carousel__inner__caption__title">
-                    <h1>台中拉麵特選</h1>
-                    <h4 class="notification">提醒: 拉麵熱量高，少喝湯可以避免過多的鹽和脂肪</h4>
-                </div>
+        </div>
+        <div class="carousel__inner__caption">
+            <div class="carousel__inner__caption__title">
+                <h1>台中拉麵特選</h1>
+                <h4 class="notification">提醒: 拉麵熱量高，少喝湯可以避免過多的鹽和脂肪</h4>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 ```
 
 4. 用Modal呈現各店家介紹內容避免主版面資訊過多。
