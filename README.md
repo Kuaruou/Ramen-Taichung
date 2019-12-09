@@ -1,5 +1,7 @@
 # Ramen-Taichung
 
+![image](https://github.com/Kuaruou/Ramen-Taichung/blob/master/RamenTaichung.gif)
+
 ### [[網站連結]](https://kuaruou.github.io/Ramen-Taichung/) ###
 
 一、版面規劃
