@@ -1,6 +1,6 @@
 # Ramen-Taichung
 
-![image]()
+![image](https://github.com/Kuaruou/Ramen-Taichung/blob/master/Ramen-Taichung.png)
 
 ### [[網站連結]](https://kuaruou.github.io/Ramen-Taichung/) ###
 
