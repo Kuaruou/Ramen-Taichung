@@ -125,6 +125,10 @@ textarea {
                 font-size: 14px;
             }
 
+            &:hover {
+                box-shadow: inset 0 0 1em purple;
+            }
+
             &:nth-child(2n-1) {
                 color: #fff;
                 background-color: #78c2c4;
