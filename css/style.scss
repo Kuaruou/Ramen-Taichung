@@ -102,7 +102,7 @@ textarea {
 }
 
 .content {
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 auto;
     /* 保持畫面滿版 */
     min-height: calc(100vh - 450px - 5em);
@@ -145,13 +145,13 @@ textarea {
         height: 10rem;
     }
     @media (max-width: 767px) {
-        height: 16rem;
-    }
-    @media (max-width: 572px) {
         height: 12rem;
     }
+    @media (max-width: 575px) {
+        height: 14rem;
+    }
     @media (max-width: 420px) {
-        height: 10rem;
+        height: 12rem;
     }
 }
 

@@ -44,7 +44,7 @@ function loadAll() {
         // 卡片字串
         let id = data[i].Number;
         let siteBox =
-            '<div class="col-md-6 col-lg-4 mb-3">' +
+            '<div class="col-sm-6 col-md-4 col-lg-3 mb-3">' +
             '<div class="card-zoom h-100">'+ 
             '<div class="card bg-light h-100">' +
             '<div class="card-body d-flex flex-column">' +
@@ -71,7 +71,7 @@ function loadType(type) {
         if (item.Type === type) {
             let id = item.Number;
             let siteBox =
-                '<div class="col-md-6 col-lg-4 mb-3">' +
+                '<div class="col-sm-6 col-md-4 col-lg-3 mb-3">' +
                 '<div class="card-zoom h-100">'+
                 '<div class="card bg-light h-100">' +
                 '<div class="card-body d-flex flex-column">' +
