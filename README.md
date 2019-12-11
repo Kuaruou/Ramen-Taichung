@@ -1,12 +1,13 @@
 # Ramen-Taichung
 
-![image](https://github.com/Kuaruou/Ramen-Taichung/blob/master/Ramen-Taichung.png)
+![image](https://github.com/Kuaruou/Ramen-Taichung/blob/master/img/Ramen-web1.png)
+
 
 ### [[網站連結]](https://kuaruou.github.io/Ramen-Taichung/) ###
 
 一、版面規劃
 
-1. 依照不同載具瀏覽畫面大小卡片單排呈現的數量設定不同尺寸的圖片，避免圖片尺寸變形過於嚴重。
+1. 依照不同載具瀏覽畫面大小卡片單排呈現的數量設定不同尺寸的圖片，使圖片維持一定合理比例。
 
 ```css
 .modal-img-height {
