@@ -7,7 +7,7 @@
 
 一、版面規劃
 
-1. 使用在<img>外層加上position-relative和p-3，利用padding是相對於寬度計算的原理，實現固定比例圖片的自適應布局。
+1. 使用在<img>外層加上position-relative和p-3，利用padding垂直方向是相對於寬度計算的特性，實現固定比例圖片的自適應布局。
 
 ```js
 '<div class="card-body d-flex flex-column position-relative p-3">' +
