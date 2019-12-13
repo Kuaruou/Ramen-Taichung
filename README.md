@@ -95,7 +95,7 @@ btnValue.forEach(function(el){
 '<div class="card bg-light h-100">' +
 ```
 
-4. navbar-nav裡面加入mx-auto讓本來靠左的buttons置中。
+4. navbar-nav裡面加入mx-auto讓本來靠左的nav-item nav-link(按鈕)置中。
     
 ```html
 <div class="navbar-nav mx-auto">    
