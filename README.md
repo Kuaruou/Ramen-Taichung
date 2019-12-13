@@ -44,9 +44,11 @@
         
 3. 在開頭使用Carousel讓封面有動態變化。
 
-4. 用Modal呈現各店家介紹內容避免主版面資訊過多。
+4. 拉麵風格選項使用Navbar做整理。
 
-5. 使用hover當滑鼠移過卡片時設定transform和transition製造zoom in zoom out的效果。
+5. 用Modal呈現各店家介紹內容避免主版面資訊過多。
+
+6. 使用hover當滑鼠移過卡片時設定transform和transition製造zoom in zoom out的效果。
 
 ```css
 .card-zoom {
@@ -92,3 +94,10 @@ btnValue.forEach(function(el){
 '<div class="card-zoom h-100">'+ 
 '<div class="card bg-light h-100">' +
 ```
+
+4. navbar-nav裡面加入mx-auto讓本來靠左的buttons置中。
+    
+```html
+<div class="navbar-nav mr-0 ml-0 mx-auto">    
+```    
+    
