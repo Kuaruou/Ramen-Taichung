@@ -48,14 +48,14 @@ function loadAll() {
             '<div class="card-zoom h-100">'+ 
             '<div class="card bg-light h-100">' +
             '<div class="card-body d-flex flex-column position-relative p-3">' +
-            '<img class="card-img-top";" src="' + data[i].Picture + '" alt="">' +
-            '<span class="card-title"><b>' + data[i].Name + '</b></span>' +
+            '<img class="card-img-top card-img-sizing";" src="' + data[i].Picture + '" alt="">' +
+            '<span class="card-title mt-3"><b>' + data[i].Name + '</b></span>' +
             '<span class="card-span"><i class="fas fa-mortar-pestle"></i><b>類型:</b>' + data[i].Type + '</span>' +
             '<span class="card-span"><i class="fas fa-map-marker-alt" style="width: 18px"></i><b>地址:</b>' + data[i].Address + '</span>' +
             '<span class="card-span"><i class="fas fa-phone-square-alt" style="width: 18px"></i><b>電話:</b>' + data[i].Tel + '</span>' +
-            '<span class="card-span"><i class="far fa-clock" style="width: 18px"></i><b>時間:</b>' + data[i].OpenTime + '</span>' +
+            '<span class="card-span"><i class="far fa-clock" style="width: 18px"></i><b>時間:</b>' + data[i].OpenTime + '</span>' + 
             '</div>' +
-            '<div class="card-body d-flex flex-column">' +
+            '<div class="card-footer d-flex flex-column">' +
             '<button type="button" class="introBtn button button-info mt-auto btn btn-info" data-toggle="modal" data-target="#ModalCenter" onclick="showIntro(&#39;' + id + '&#39;)">店家介紹</button>' +
             '</div>' +
             '</div>' +
@@ -75,7 +75,7 @@ function loadType(type) {
                 '<div class="card-zoom h-100">'+
                 '<div class="card bg-light h-100">' +
                 '<div class="card-body d-flex flex-column position-relative p-3">' +
-                '<img class="card-img-top" src="' + item.Picture + '" alt="">' +
+                '<img class="card-img-top card-img-sizing" src="' + item.Picture + '" alt="">' +
                 '<span class="card-title"><b>' + item.Name + '</b></span>' +
                 '<span class="card-span"><i class="fas fa-mortar-pestle"></i><b>類型:</b>' + item.Type + '</span>' +
                 '<span class="card-span"><i class="fas fa-map-marker-alt" style="width: 18px"></i><b>地址:</b>' + item.Address + '</span>' +
