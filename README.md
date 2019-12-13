@@ -98,6 +98,6 @@ btnValue.forEach(function(el){
 4. navbar-nav裡面加入mx-auto讓本來靠左的buttons置中。
     
 ```html
-<div class="navbar-nav mr-0 ml-0 mx-auto">    
+<div class="navbar-nav mx-auto">    
 ```    
     
