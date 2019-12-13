@@ -7,24 +7,10 @@
 
 一、版面規劃
 
-1. 依照不同載具瀏覽畫面大小卡片單排呈現的數量設定不同尺寸的圖片，使圖片維持一定合理比例。
+1. 使用position-relative和p-0讓圖片實現比例固定圖片自適應布局。
 
-```css
-.modal-img-height {
-    height: 12rem;
-    @media (max-width: 1200px) {
-        height: 10rem;
-    }
-    @media (max-width: 767px) {
-        height: 16rem;
-    }
-    @media (max-width: 572px) {
-        height: 12rem;
-    }
-    @media (max-width: 420px) {
-        height: 10rem;
-    }
-}
+```js
+'<div class="card-body d-flex flex-column position-relative p-0">'
 ```
 
 2. 用子元素選取器讓不同色調的按鈕相間產生對比，且在按鈕上加上陰影產生互動效果。
