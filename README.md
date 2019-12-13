@@ -7,10 +7,11 @@
 
 一、版面規劃
 
-1. 使用position-relative和p-0讓圖片實現比例固定圖片自適應布局。
+1. 使用在<img>外層加上position-relative和p-3，利用padding垂直方向是相對於寬度計算的特性，實現固定比例圖片的自適應布局。
 
 ```js
-'<div class="card-body d-flex flex-column position-relative p-0">'
+'<div class="card-body d-flex flex-column position-relative p-3">' +
+'<img class="card-img-top" src="' + item.Picture + '" alt="">' +
 ```
 
 2. 用子元素選取器讓不同色調的按鈕相間產生對比，且在按鈕上加上陰影產生互動效果。
