@@ -27,7 +27,7 @@
 }
 ```
 
-2. 用子元素選取器讓不同色調的按鈕相間產生對比。
+2. 用子元素選取器讓不同色調的按鈕相間產生對比，且在按鈕上加上陰影產生互動效果。
 
 ```css
 .btn {
@@ -36,6 +36,10 @@
     @media (max-width: 960px) {
         width: 90px;
         font-size: 14px;
+        }
+        
+        &:hover {
+            box-shadow: inset 0 0 1em purple;
         }
         
         &:nth-child(2n-1) {
