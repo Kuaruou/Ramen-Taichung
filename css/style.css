@@ -179,34 +179,6 @@ textarea {
   border-color: navajowhite;
 }
 
-.modal-img-height {
-  height: 12rem;
-}
-
-@media (max-width: 1200px) {
-  .modal-img-height {
-    height: 10rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .modal-img-height {
-    height: 12rem;
-  }
-}
-
-@media (max-width: 575px) {
-  .modal-img-height {
-    height: 14rem;
-  }
-}
-
-@media (max-width: 420px) {
-  .modal-img-height {
-    height: 12rem;
-  }
-}
-
 .card-zoom {
   overflow: hidden;
 }
