@@ -47,8 +47,8 @@ function loadAll() {
             '<div class="col-sm-6 col-md-4 col-lg-3 mb-3">' +
             '<div class="card-zoom h-100">'+ 
             '<div class="card bg-light h-100">' +
-            '<div class="card-body d-flex flex-column">' +
-            '<img class="card-img-top modal-img-height";" src="' + data[i].Picture + '" alt="">' +
+            '<div class="card-body d-flex flex-column position-relative p-0">' +
+            '<img class="card-img-top modal-img-sizing";" src="' + data[i].Picture + '" alt="">' +
             '<span class="card-title"><b>' + data[i].Name + '</b></span>' +
             '<span class="card-span"><i class="fas fa-mortar-pestle"></i><b>類型:</b>' + data[i].Type + '</span>' +
             '<span class="card-span"><i class="fas fa-map-marker-alt" style="width: 18px"></i><b>地址:</b>' + data[i].Address + '</span>' +
