@@ -33,12 +33,12 @@
             color: #fff;
             background-color: #78c2c4;
             border-color: #78c2c4;
-            }
+        }
         &:nth-child(2n) {
             color: #947A6D;
             background-color:#fdefe1;
             border-color: navajowhite;
-            }
+        }
     }
 ```
         
@@ -95,9 +95,9 @@ btnValue.forEach(function(el){
 '<div class="card bg-light h-100">' +
 ```
 
-4. navbar-nav裡面加入mx-auto讓本來靠左的buttons置中。
+4. navbar-nav裡面加入mx-auto讓本來靠左的nav-item nav-link(按鈕)置中。
     
 ```html
-<div class="navbar-nav mr-0 ml-0 mx-auto">    
+<div class="navbar-nav mx-auto">    
 ```    
     
